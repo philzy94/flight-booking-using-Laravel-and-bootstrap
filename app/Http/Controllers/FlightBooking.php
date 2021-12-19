@@ -810,5 +810,3 @@ class FlightBooking extends Controller
     }
     
 }
-//'dQ18i8G0iMxA7dMmwOhxEnAISzdYpWwc',
-//'client_secret' => '6lx8iObRCmz8H3BM',
