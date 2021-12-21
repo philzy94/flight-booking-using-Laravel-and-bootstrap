@@ -17,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('/access-token', [FlightBookingController::class, 'stoaccessTokenre']);
+Route::post('/flight-offers-search', [FlightBookingController::class, 'flightOffersSearch']);
+Route::post('/flight-offers-price', [FlightBookingController::class, 'flightOffersPrice']);
+Route::post('/flight-create-orders', [FlightBookingController::class, 'flightCreateOrders']);

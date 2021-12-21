@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
 
-class FlightBooking extends Controller
+class FlightBookingController extends Controller
 {
     /**
      * Display a listing of the resource.
